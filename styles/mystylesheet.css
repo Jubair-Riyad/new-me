@@ -1,0 +1,37 @@
+/*Fonts*/
+body{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/*Header Section*/
+.banner{
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+}
+.head-title{
+    font-size: 65px;
+    color: #151414;
+    width: 525px;
+}
+.head-description{
+    font-size: 16px;
+    color: #444343;
+    width: 494px;
+}
+.btn-primary{
+    font-size: 20px;
+    color: white;
+    background-color: #F15B22;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    width: 160px;
+}
+.head-sec{
+    text-align: right;
+    float: right;
+    padding: 200px 200px 200px 0px;
+}
