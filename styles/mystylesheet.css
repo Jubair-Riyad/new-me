@@ -92,14 +92,11 @@ ul{
 }
 
 .banner-2{
-    background-image: url('../images/gradient2.png');
+    background-image: url('../images/gradient2.png'),url('../images/watch.png') ;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
     width: 100%;
-}
-.banner-1{
-    height: 100%;
 }
 
 /*Footer*/
