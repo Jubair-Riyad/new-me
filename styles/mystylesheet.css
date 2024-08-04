@@ -70,22 +70,28 @@ body{
 .failur-description{
     font-size: 16px;
     color: #444343 ;
+    line-height: 2;
 }
 ul{
     list-style: none;
     padding-left:0px ;
 }
-
+li{
+    line-height: 2;
+}
 li i{
     color: #16D887;
     width: 24px;
 }
+
+
 /*Plans*/
 
 .plan-title{
     font-size: 40px;
     color: #151414;
     text-align: center;
+    margin-top: 200px;
 
 }
 .icon-img{
@@ -96,7 +102,6 @@ li i{
     display: flex;
     text-align: center;
     justify-content: center;
-    /* width: 1141px; */
 }
 .icon-name{
     font-size: 30px;
@@ -109,8 +114,9 @@ li i{
     text-align: center;
 }
 .pl{
-    padding: 20px;
+    padding: 45px;
 }
+
 .banner-title{
     font-size: 40px;
     color: white ;
@@ -128,25 +134,25 @@ li i{
 
 }
 .content{
-    display: flex; /* Added */
-    flex-direction: column;  /* Added */
-    align-items: left; /* Added */
+    display: flex; 
+    flex-direction: column;  
+    align-items: left; 
 }
 .banner-2{
     background-image: url('../images/gradient2.png'),url('../images/watch.png') ;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
-    width: 100%;
-    display: flex; /* Added */
-    justify-content: left; /* Added */
-    align-items: center; /* Added */
+    display: flex; 
+    justify-content: left; 
+    align-items: center; 
     text-align: left;
-    padding-left: 0px;
+    margin: 100px auto;
+    border-radius: 8px;
+    height: 300px;
+    width: 1140px;
 }
 #cont{
-    padding-left: 500px;
-    padding-top: 0px;
+    padding: 50px 0px 75px 75px;
 }
 
 /*Footer*/
