@@ -98,3 +98,59 @@ ul{
     height: 100vh;
     width: 100%;
 }
+.banner-1{
+    height: 100%;
+}
+
+/*Footer*/
+.foot{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    width: 100%;
+    height: 577px;
+
+}
+.foot-title{
+    color: white;
+    font-size: 45px;
+}
+.foot-desciption{
+    color: white;
+    font-size: 16px;
+    width: 485px;
+}
+.email-phone{
+    color: white;
+    font-size: 16px;
+}
+.socila-icon{
+    display: flex;
+}
+.socila-icons{
+    padding: 10px 20px 10px 0px;
+    width: 46px;
+    height: 46px;
+}
+.email{
+    border: solid white 1px;
+    background-color: #151414;
+    border-radius: 5px;
+    width: 325px;
+    height: 64px;
+    font-size: 18px;
+    padding: 15px;
+}
+::placeholder{
+    color: white;
+}
+.Subscribe{
+    font-size: 20px;
+    color: #F15B22;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    width: 170.11px;
+    height: 64px;
+}
